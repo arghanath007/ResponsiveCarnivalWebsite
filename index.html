@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styling.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+
+<body>
+    <header id="nav-wrapper">
+        <nav id="nav">
+            <div class="nav left">
+                <span class="gradient skew">
+                    <h1 class="logo un-skew"><img src="./Images/logo.svg" alt=""></h1>
+                </span>
+                <button id="menu" class="btn-nav"><span class="fas fa-bars"></span></button>
+            </div>
+            <div class="nav right">
+                <a href="#showcase" class="nav-link active"><span class="nav-link-span"><span
+                            class="u-nav">Home</span></span></a>
+                <a href="#About" class="nav-link"><span class="nav-link-span"><span
+                            class="u-nav">About</span></span></a>
+                <a href="#Program-Schedules" class="nav-link"><span class="nav-link-span"><span class="u-nav">Program Schedules</span></span></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="showcase" class="grid">
+            <svg viewBox="0 0 500 100">
+                <symbol id="s-text">
+                    <text text-anchor="middle" x="50%" y="50%" dy=".5em">
+                        JIS SPRING
+                    </text>
+                </symbol>
+                <use class="text" xlink:href="#s-text">J</use>
+                <use class="text" xlink:href="#s-text">I</use>
+                <use class="text" xlink:href="#s-text">S</use>
+                <use class="text" xlink:href="#s-text">S</use>
+                <use class="text" xlink:href="#s-text">P</use>
+                <use class="text" xlink:href="#s-text">R</use>
+                <use class="text" xlink:href="#s-text">I</use>
+                <use class="text" xlink:href="#s-text">N</use>
+                <use class="text" xlink:href="#s-text">G</use>
+            </svg>
+        </section>
+        <section id="About">
+            <div class="about-section">
+                <div class="inner-container">
+                    <h1>About Us</h1>
+                    <p class="about-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit ducimus, enim inventore earum,
+                        eligendi nostrum pariatur necessitatibus eius dicta a voluptates sit deleniti autem error eos totam nisi
+                        neque voluptates sit deleniti autem error eos totam nisi neque.
+                    </p>                    
+                    <div class="blockquote-wrapper">
+                        <div class="blockquote">
+                            <p class="quote">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus animi nemo corrupti. Reiciendis nisi
+                                suscipit 
+                            </p>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+            <div class="container">
+                <h1 class="maint">Contact Us Form</h1>
+                <div class="section animated bounceInLeft">
+                    <div class="brandname">
+                        <h3>Send us your feedback</h3>
+                        <ul>
+                            Phone No: <li>+91 9073683914
+                                </br>+91 9073683915</li>
+                                </br>
+                            Email:<li>info@gkcem.ac.in</li>
+                            </br>
+                            Address: <li>Baruipur, near Phultala
+                            South 24 Parganas - 743387
+                            West Bengal</li>
+                            </br>
+                            Website:<li>gkcem.ac.in</li>
+                        </ul>
+                    </div>
+                    <div class="contact">
+                        <h3>Email Me</h3>
+                        <form action="#">
+                            <p>
+                                <label for="#">Name</label>
+                                <input type="text" name="name">
+                            </p>
+                            <p>
+                                <label for="#">Company</label>
+                                <input type="text" name="company">
+                            </p>
+                            <p>
+                                <label for="#">Email Address</label>
+                                <input type="email" name="email">
+                            </p>
+                            <p>
+                                <label for="#">Phone Number</label>
+                                <input type="text" name="phone">
+                            </p>
+                            <p class="full">
+                                <label for="#">Message</label>
+                                <textarea name="message" cols="30" rows="5"></textarea>
+                            </p>
+                            <p class="full">
+                                <button>Submit</button>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section> 
+         <section id="Program-Schedules">
+            <div class="wrapper">
+        
+                <div class="header">
+                    <h1 class="header__title">Program Schedules</h1>
+                </div>
+        
+                <div class="cards">
+        
+                    <div class=" card [ is-collapsed ] ">
+                        <div class="card__inner [ js-expander ]">
+                            <span class="heading">Sur Sargam<img src="./Images/music_competition.jpg" alt="Image"></span>
+                        </div>
+                        <div class="card__expander">
+                            <p class="txt">
+                                Date:<strong> Dec 10th</strong></br>
+                                Time allotted for each performance is 3 – 4 minutes.
+                                Participants will not be allowed to refer to the lyrics while singing.
+                                The participants should arrange their own musical instruments if required in the
+                                performance.Choice
+                                of song
+                                is open to the participants but the song should not have any slangs or derogatory language.
+                            </p>
+                        </div>
+                    </div>
+        
+                    <div class=" card [ is-collapsed ] ">
+                        <div class="card__inner [ js-expander ]">
+                            <span class="heading">String Symphony<img src="./Images/instrumental.jpg" alt="Image"></span>
+        
+                        </div>
+                        <div class="card__expander">
+                            <p class="txt">
+                                Date:<strong> Dec 10th</strong></br>
+                                This is a solo competition and not open to ensembles (duets, trios, quartets).Time allotted for
+                                each
+                                performance is 3–5 minutes.No accompaniment or pre-recorded music shall be allowed. No Keyboard.
+                                Instruments of western origin adopted to the India Raga system are allowed.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" card [ is-collapsed ] ">
+                        <div class="card__inner [ js-expander ]">
+                            <span class="heading">Malang-e-Mridang<img src="./Images/dance.jpg" alt="Image"></span>
+                        </div>
+                        <div class="card__expander">
+                            <p class="txt">
+                                Date:<strong> Dec 10th</strong></br>
+                                This is a solo competition.The classical dance can be from any of the approved schools of dance,
+                                such as Kathak,Kathakali, Bharat Natyam,Manipuri, Kuchipudi, Mohinittam, Odissi.Time allotted
+                                for
+                                each performance is 4 – 5 minutes.The
+                                participants will be judged on- Taal and Rhythm,Choreography, Technique,Abhinaya or
+                                Expression,Hand
+                                & eye movements,Footwork,Costumes and Overall Impression.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" card [ is-collapsed ] ">
+                        <div class="card__inner [ js-expander ]">
+                            <span class="heading">Feet Beat<img src="./Images/group_dance.jpg" alt="Image"></span>
+                        </div>
+                        <div class="card__expander">
+                            <p class="txt">
+                                Date:<strong> Dec 10th</strong></br>
+                                This is a group performance competition with maximum of 7 Participants.Time allotted for each
+                                performance is 4–5 mins.Western free style or group Dance–any styles.Bollywood songs are not
+                                allowed.There should be no vulgarity and
+                                provocation in lyrics.The participants will be judged on-Theme,Presentation,Versatility,Stage
+                                Utilization,Costume.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" card [ is-collapsed ] ">
+                        <div class="card__inner [ js-expander ]">
+                            <span class="heading">Rangmanch Zindegika<img src="./Images/Drama.jpg" alt="Image"></span>
+                        </div>
+                        <div class="card__expander">
+                            <p class="txt">
+                                Date:<strong> Dec 10th</strong></br>
+                                This is a group performance competition with a maximum of 7 Participants.Time allotted for each
+                                performance is 5 – 7minutes.The main language may be either Bengali, Hindi or English or a
+                                combination.The script can be original or an adaptation.External music is allowed.No props will
+                                be
+                                provided, however teams may use their own props.Probition of any vulgarity with the performance
+                                or
+                                words, otherwise marks would be deduction or disqualified.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" card [ is-collapsed ] ">
+                        <div class="card__inner [ js-expander ]">
+                            <span class="heading">Fashion Show<img src="./Images/Fashion_show.jpg" alt="Image"></span>
+                        </div>
+                        <div class="card__expander">
+                            <p class="txt">
+                                Date:<strong> Dec 10th</strong></br>
+                                This is a group performance competition with a maximum of 8 Participants.Time allotted for each
+                                performance is 7
+                                minutes.The fashion show will be based on any Indian Theme.Each group should have one tag line
+                                representing their group
+                                and the theme.Negative marking if participants exceed time limit
+                                Music track for the presentation has to be arranged by the group.Vulgarity is strongly
+                                prohibited.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" card [ is-collapsed ] ">
+                        <div class="card__inner [ js-expander ]">
+                            <span class="heading">Group Band<img src="./Images/band.jpg" alt="Image"></span>
+                        </div>
+                        <div class="card__expander">
+                            <p class="txt">
+                                Date:<strong> Dec 10th</strong></br>
+                                This is a group performance competition with a maximum of 8 Participants
+                                Time allotted for each performance is 5 minutes.The event is open for all music genres.Original
+                                compositions are
+                                allowed. Print out of lyrics to be provided in advance.No pre-recorded sequence can be played on
+                                stage.Use of vulgar
+                                language or any obscenity will lead to on-the-spot disqualification of the band.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" card [ is-collapsed ] ">
+                        <div class="card__inner [ js-expander ]">
+                            <span class="heading">Sutradhar/Anchor<img src="./Images/Anchor.jpg" alt="Image"></span>
+                        </div>
+                        <div class="card__expander">
+                            <p class="txt">
+                                Date:<strong> Dec 10th</strong></br>
+                                This is a solo competition.Time allotted for each performance is 3 minutes.Medium of expression
+                                will
+                                be Bengali, Hindi
+                                or English.The Topic shall be given on the spot.Reading from paper/other resources such as
+                                mobile
+                                phone/ tabs etc. is
+                                not permissible any shall lead to immediate disqualification.The participants will be judged on-
+                                Introduction,Knowledge,Presentation,Pronunciation,Body Language, Public Interaction, Confidence.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" card [ is-collapsed ] ">
+                        <div class="card__inner [ js-expander ]">
+                            <span class="heading">Recitation<img src="./Images/Recitation.jpg" alt="Image"></span>
+                        </div>
+                        <div class="card__expander">
+                            <p class="txt">
+                                Date:<strong> Dec 10th</strong></br>
+                                This is a solo competition.Time allotted for each performance is 3 minutes.Participant must
+                                Present
+                                her/himself well and be attentive. Use good posture. Be confident and make a direct,connection
+                                with
+                                the audience
+                                Poem presented must not touch on sensitive issues such as races, religion, stereotyping,
+                                politics,
+                                etc.Participant will be allowed to read from the text of the poem, but bonus marks will be given
+                                to
+                                those that can
+                                memorize the poem.Props, Backdrops and Sound effects are not allowed.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" card [ is-collapsed ] ">
+                        <div class="card__inner [ js-expander ]">
+                            <span class="heading">WINGS OF IMAGINATION<img src="./Images/sketching.jpg" alt="Image"></span>
+                        </div>
+                        <div class="card__expander">
+                            <p class="txt">
+                                Date:<strong> Dec 10th</strong></br>
+                                This is a solo competition.Time allotted for each performance is 5 – 7 minutes.Subject for the
+                                sketch shall be given on-the-spot.Size of the sketch will be half imperial size drawing paper
+                                (22
+                                inches X 15 inches).The sketching will have to be captured on time lapse video.Presentation will
+                                be
+                                online.The participants will be judged on- Thematic Relevance,Originality,Design and Creative
+                                Elements,Visual Execution,Physical Composition – skill of line work/brushstroke.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" card [ is-collapsed ] ">
+                        <div class="card__inner [ js-expander ]">
+                            <span class="heading">IN-QUIZ-ITIVE<img src="./Images/Quiz.jpg" alt="Image"></span>
+                        </div>
+                        <div class="card__expander">
+                            <p class="txt">
+                                Date:<strong> Dec 10th</strong></br>
+                                This is a solo competition.Quiz will be conducted by a Quiz Master of repute.Judges will be
+                                selected
+                                by the institutes (intra-level).All Institute teams will go through Rapid Fire / Written
+                                questions
+                                in preliminary round.Six teams will go through to next round / finals.Finals will be oral with
+                                audio- visual questions.The Specific rules regarding evaluation procedure, time to reply a
+                                particular answer and the type of round will be given before the actual start of the
+                                competition.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" card [ is-collapsed ] ">
+                        <div class="card__inner [ js-expander ]">
+                            <span class="heading">WAR OF THE MINDS<img src="./Images/Debate.jpg" alt="Image"></span>
+                        </div>
+                        <div class="card__expander">
+                            <p class="txt">
+                                Date:<strong> Dec 10th</strong></br>
+                                There will be lottery on basis of which participants will speak.Each Institute will be
+                                represented
+                                by the two debaters, one will speak FOR, while another will speak AGAINST the motion.Medium of
+                                expression can be Bengali, Hindi or English.Topic of Debate will be announced 24 hours in
+                                advance.Paper reading is not allowed.For the benefit of the students, the respected judges will
+                                debate the same topic as an exhibition round immediately after the event.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" card [ is-collapsed ] ">
+                        <div class="card__inner [ js-expander ]">
+                            <span class="heading">PHOTOGRAPHY COMPETITION<img src="./Images/Photography.jpg" alt="Image"></span>
+                        </div>
+                        <div class="card__expander">
+                            <p class="txt">
+                                Date:<strong> Dec 10th</strong></br>
+                                All colleges are requested to exhibit 10 classy photographs in A4 size at the venue of Gala
+                                Event
+                                for which a corner
+                                each will be allocated
+                                Topics are:-</br>
+                                a. <strong> Pandemic 2020</strong></br>
+                                b. <strong> Campus Life</strong></br>
+                                c. <strong> Colours of Nature</strong></br>
+                                The participants will need to bring his / her own digital camera of not more than 12 mega
+                                pixels.The
+                                digital camera should have a memory card which will be formatted by the judges before the
+                                commencement of the contest.The time limit is two and a half hours.The participant has to
+                                capture 5
+                                photographs on the theme announced on the spot by the judges.No mixing, matching or morphing of
+                                photographs is permitted.Software such as Photoshop etc. for enhancing images is not
+                                permitted.Digital images will be evaluated on the basis of- Impact,CompositionTechnical,
+                                Quality,Suitability for the specific theme.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" card [ is-collapsed ] ">
+                        <div class="card__inner [ js-expander ]">
+                            <span class="heading">WEBSITE DESIGNING FOR SPIRIT-JIS<img src="./Images/website.jpg" alt="Image"></span>
+                            <i class="fa fa-folder-o"></i>
+                        </div>
+                        <div class="card__expander">
+                            <p class="txt">
+                                Date:<strong> Dec 10th</strong></br>
+                                There will be two rounds for this event
+                                Round-1 will consist of 30 questions on HTML and CSS. All questions will be in the format of
+                                multiple choice questions. Duration for this will be 30 Minutes Max.In Round-2, shortlisted
+                                participants from Round 1 will need to design website based on any one of competition topics in
+                                90
+                                minutes using permitted development tools
+                                Competition Topics: </br>
+                                a.<strong>Incredible India</strong></br>
+                                b.<strong>Digital India</strong></br>
+                                c.<strong>e-Resources in the field of education</strong></br>
+                                Permitted Tools: </br>
+                                a.<strong>Application software (FrontPage, Publisher, Dreamweaver, Photoshop etc.)</strong></br>
+                                b.<strong>Programming Language (Hypertext Markup Language (HTML), Java Script,
+                                    etc.</strong></br>
+                                Maximum 2 members per group.Participants need to design a 5+ pages website based on the
+                                competition
+                                topic.
+                                Students have to design a web-site on any one of the specified topics and present it to the
+                                judges.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <section></section>
+    </main>
+        <button class="scrollTop"></button>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./app.js"></script>
+    </body>
+</html>
+        
